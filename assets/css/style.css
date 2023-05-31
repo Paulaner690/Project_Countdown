@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#minuteCountdownBereich {
+    height: 100vh;
+    background: radial-gradient(ellipse at center,  #540f43  0%, #000000 70%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #8c7486;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+p{
+    margin-bottom: 0.5rem;
+    text-shadow: 0 0 20px rgba(230, 10, 153, 0.396),  0 0 20px rgba(10, 175, 230, 0);
+    text-decoration: line-through;
+}
+
+div{
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+input {
+    color: white;
+    width: 20rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 0px;
+    background: #9a949b;
+    background: none;
+    box-shadow: 0 0 40px rgba(230, 10, 153, 0.405),  0 0 20px rgba(10, 175, 230, 0);
+}
+
+button {
+    width: 10rem;
+    border: none;
+    border-radius: 2px;
+    padding: 0.5rem 1rem ;
+    color: white;
+    background: #9f356c;
+    box-shadow: 0 0 20px rgba(230, 10, 153, 0.715),  0 0 20px rgba(10, 175, 230, 0);
+}
+
+button:hover{
+    cursor: pointer;
+    background: #35409f;
+    box-shadow: 0 0 20px #35409fde,  0 0 20px rgba(10, 175, 230, 0);
+}
+
+#reset{
+    background: none;
+    box-shadow: none;
+}
+
+#reset:hover{
+    text-shadow: 0 0 20px rgba(230, 10, 153, 0.715),  0 0 20px rgba(10, 175, 230, 0);
+}
